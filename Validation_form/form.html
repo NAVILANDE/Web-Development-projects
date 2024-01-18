@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+
+    <link rel="alternate" href="http://fonts.googleapis.com">
+    <link rel="alternate" href="http://font.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./form.css">
+    <script defer src="./form.js"></script>
+</head>
+<body>
+<div class="container">
+    <form id="form" action="/">
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="Username">Username</label>
+            <input id="Username" name="Username" type="text" >
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="Username" type="text">
+            <div class="error"></div>
+        </div>
+
+
+        <div class="input-control">
+            <label for="password">password</label>
+            <input id="password" name="password" type="password">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="password">password_Again</label>
+            <input id="password" name="password" type="password">
+            <div class="error"></div>
+        </div>
+
+
+
+
+        <button type="submit">Sign In</button>
+    </form>
+</div>
+
+
+
+</body>
+
+</html>
